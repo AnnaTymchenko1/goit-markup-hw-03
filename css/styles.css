@@ -64,9 +64,7 @@ img {
 }
 /* ----------HEADER--------- */
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .header-logo {
   font-family: "Raleway";
@@ -102,6 +100,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -284,6 +285,7 @@ img {
   letter-spacing: 0.03em;
 }
 /* -------FOOTER------ */
+
 .footer {
   background-color: var(--primary-bg-color);
   padding-top: 60px;
@@ -298,6 +300,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--white);
 }
+.address {
+  margin-top: 20px;
+}
 .address-text {
   font-style: normal;
   font-weight: 400;
@@ -306,7 +311,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--white);
   margin-bottom: 9px;
-  margin-top: 20px;
 }
 
 .address-link {
@@ -346,7 +350,7 @@ img {
   color: var(--white);
 }
 .filters {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,7 +365,14 @@ img {
 .project-item {
   width: calc(100% / 3 - 30px);
   margin: 15px;
-  border: 1px solid #eeeeee;
+}
+.element {
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 .project-title {
   font-weight: 700;
@@ -369,6 +380,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
+  margin-bottom: 4px;
 }
 .project-text {
   font-size: 16px;
