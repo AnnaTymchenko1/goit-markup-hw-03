@@ -139,13 +139,12 @@ img {
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-.connect-container {
-  margin-left: auto;
-}
+
 .header-connect {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin-left: auto;
 }
 
 /* -----------HERO-------- */
@@ -194,17 +193,13 @@ img {
 
 .features-list {
   display: flex;
-  justify-content: space-between;
-  margin: -15px;
 }
 .features-item {
-  /* height: 75px;
-  width: 270px; */
-  width: calc(100% / 4 - 30px);
+  width: 270px;
 }
-/* .features-item:not(:last-child) {
+.features-item:not(:last-child) {
   margin-right: 30px;
-} */
+}
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -370,9 +365,6 @@ img {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  padding-right: 24px;
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
 .project-title {
   font-weight: 700;
